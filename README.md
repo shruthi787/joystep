@@ -1,14 +1,14 @@
-# Joystep – Assistive Technology Suite
+Joystep – Assistive Technology Suite
 
 **Hands-Free Computer Control Using Hand Gestures and Facial Movements**
 
-## 📌 Project Overview
+📌 Project Overview
 
 Joystep is a Python-based assistive technology project designed to make computer interaction easier and more accessible through hand gestures and facial movements. The project explores an alternative to traditional mouse control using a webcam and computer vision.
 
 It aims to support users with limited hand mobility by enabling cursor movement, clicking, and scrolling through supported gestures.
 
-## 🎯 Objectives
+🎯 Objectives
 
 - Develop a hands-free computer interaction system.
 - Enable gesture-based mouse control.
@@ -16,7 +16,7 @@ It aims to support users with limited hand mobility by enabling cursor movement,
 - Improve accessibility through computer vision.
 - Provide an affordable alternative input method using a webcam.
 
-## ✨ Features
+✨ Features
 
 - **Hand Gesture Control:** Control the cursor using recognized hand movements.
 - **Mouse Actions:** Perform supported left-click and right-click actions.
@@ -27,7 +27,7 @@ It aims to support users with limited hand mobility by enabling cursor movement,
 
 *Note: Available features and gesture mappings depend on the current source-code implementation.*
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Python 3
 - Computer Vision
@@ -36,7 +36,7 @@ It aims to support users with limited hand mobility by enabling cursor movement,
 - Visual Studio Code
 - Git and GitHub
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```text
 Joystep/
@@ -52,7 +52,7 @@ Joystep/
     └── test_basic.py
 ```
 
-## 💻 System Requirements
+💻 System Requirements
 
 - Windows, Linux, or macOS
 - Python 3 installed
@@ -60,15 +60,15 @@ Joystep/
 - Git installed
 - Required Python packages
 
-## 🚀 Installation and Setup
+🚀 Installation and Setup
 
-### Step 1: Clone the Repository
+Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Shruthi1787/Joystep.git
 ```
 
-### Step 2: Open the Project Folder
+Step 2: Open the Project Folder
 
 ```bash
 cd Joystep
@@ -76,7 +76,7 @@ cd Joystep
 
 Open this folder in Visual Studio Code.
 
-### Step 3: Create a Virtual Environment
+Step 3: Create a Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -94,7 +94,7 @@ On macOS or Linux:
 source .venv/bin/activate
 ```
 
-### Step 4: Install Dependencies
+Step 4: Install Dependencies
 
 If `requirements.txt` is present and contains the project's actual dependencies, run:
 
@@ -102,7 +102,7 @@ If `requirements.txt` is present and contains the project's actual dependencies,
 pip install -r requirements.txt
 ```
 
-### Step 5: Run the Application
+Step 5: Run the Application
 
 ```bash
 python joystepp_3.py
@@ -116,7 +116,7 @@ py joystepp_3.py
 
 Ensure that your webcam is connected and that the application has permission to access it.
 
-## 🖱️ How to Use
+🖱️ How to Use
 
 1. Start the application.
 2. Ensure that the webcam is working.
@@ -126,13 +126,13 @@ Ensure that your webcam is connected and that the application has permission to 
 6. Complete calibration when prompted.
 7. Exit the application using its supported exit control.
 
-## ⚙️ Environment Variables
+⚙️ Environment Variables
 
 The project currently has no documented environment variables.
 
 If environment variables are introduced in future versions, document their names and purposes here. Never upload passwords, API keys, or other sensitive credentials to GitHub.
 
-## 🧪 Testing
+🧪 Testing
 
 Run the automated tests using:
 
@@ -151,7 +151,7 @@ Testing should cover:
 
 Hardware-dependent features should also be tested manually with a webcam.
 
-## 🏗️ Architecture
+🏗️ Architecture
 
 The intended workflow is:
 
@@ -163,21 +163,21 @@ The intended workflow is:
 
 For more information, see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
-## 🔒 Privacy and Security
+🔒 Privacy and Security
 
 - Webcam access is used for the intended application functionality.
 - Avoid storing video recordings unnecessarily.
 - Do not commit passwords, API keys, or private configuration files.
 - Obtain consent before collecting or sharing personal images or recordings.
 
-## ⚠️ Limitations
+⚠️ Limitations
 
 - Performance may depend on lighting conditions and webcam quality.
 - Gesture recognition may require calibration.
 - A working webcam is required for camera-based features.
 - Actual supported gestures depend on the current implementation.
 
-## 🔮 Future Enhancements
+🔮 Future Enhancements
 
 - Improve gesture recognition accuracy.
 - Add customizable gesture controls.
@@ -186,12 +186,12 @@ For more information, see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 - Improve cross-platform compatibility.
 - Introduce additional accessibility features.
 
-## 👥 Contributors
+👥 Contributors
 
-- Shruthi
-- Project teammate
+- Shruthi E
+- Rakshitha G
 
-## 📄 License
+📄 License
 
 This project is distributed under the license specified in the [`LICENSE`](LICENSE) file.
 
